@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+
+    <header class="border-b border-gray-100">
+        <div class=" items-center max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-6">
+             
+            <img src="./imagebilol/image.png" alt="">
+             
+
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-600">
+                <a href="#" class="hover:text-ink transition">About Us</a>
+                <a href="#" class="hover:text-ink transition">Services</a>
+                <a href="#" class="text-brand font-semibold">Work</a>
+                <a href="#" class="hover:text-ink transition">News</a>
+                <a href="#" class="hover:text-ink transition">Contacts</a>
+            </nav>
+             
+
+            <div class="hidden md:flex items-center gap-6 whitespace-nowrap">
+                 
+                <div class="flex items-center gap-3">
+                    <span
+                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-brand text-brand">
+                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 5a2 2 0 012-2h2.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                    </span>
+                    <div class="text-sm leading-tight">
+                        <p class="text-gray-400">Call us</p>
+                        <p class="font-semibold">(405) 555-0128</p>
+                    </div>
+                </div>
+                 
+                <div class="h-8 w-px bg-gray-200"></div>
+                 
+                <div class="flex items-center gap-3">
+                    <span
+                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-brand text-brand">
+                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                        </svg>
+                    </span>
+                    <div class="text-sm leading-tight">
+                        <p class="text-gray-400">Talk to us</p>
+                        <p class="font-semibold">hello@createx.com</p>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+    </header>
+     
+
+    <main class="max-w-7xl mx-auto px-6 py-10">
+         
+
+        <p class="text-sm text-gray-400 mb-3">
+            <a href="#" class="hover:text-gray-600 transition">Homepage</a>
+            <span class="mx-1">/</span>
+            <a href="#" class="hover:text-gray-600 transition">Work</a>
+            <span class="mx-1">/</span>
+            <span class="text-gray-300">Modern Cottage</span>
+        </p>
+         
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-8">Modern Cottage</h1>
+         
+
+        <section aria-label="Project gallery">
+             
+            <div class="relative rounded-3xl overflow-hidden bg-gray-100">
+                <img src="./imagebilol/image copy.png" alt="Modern Cottage — основной вид"
+                    class="w-full h-[320px] sm:h-[420px] lg:h-[520px] object-cover">
+                 
+                <button id="prev-btn" aria-label="Previous image"
+                    class="absolute left-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-ink shadow hover:bg-white transition">
+                    <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                </button>
+                 
+                <button id="next-btn" aria-label="Next image"
+                    class="absolute right-4 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-ink shadow hover:bg-white transition">
+                    <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </button>
+            </div>
+             
+
+            <div class="mt-4 flex gap-3 overflow-x-auto">
+                <img src="./imagebilol/image copy 2.png" alt="Thumbnail 1"
+                    class="h-20 w-28 rounded-xl object-cover ring-2 ring-transparent hover:ring-brand transition">
+
+                <img src="./imagebilol/image copy 3.png" alt="Thumbnail 1"
+                    class="h-20 w-28 rounded-xl object-cover ring-2 ring-transparent hover:ring-brand transition">
+
+                <img src="./imagebilol/image copy 5.png" alt="Thumbnail 1"
+                    class="h-20 w-28 rounded-xl object-cover ring-2 ring-transparent hover:ring-brand transition">
+
+        </section>
+
+
+
+        <section class="max-w-7xl mx-auto px-6 py-24">
+            <div class="grid lg:grid-cols-2 gap-20 items-start">
+
+                <div>
+                    <h2 class="text-5xl font-bold text-[#1C1C1C] mb-10">
+                        Project goal
+                    </h2>
+
+                    <p class="text-gray-500 leading-8 mb-8 max-w-lg">
+                        Build a private house 840 sq. feet with a large living room,
+                        three bedrooms, two bathrooms, a terrace, a pool and a garage
+                        for two cars.
+                    </p>
+
+                    <p class="text-gray-500 leading-8 max-w-lg">
+                        Modern design and care for each family member to feel as
+                        comfortable as possible in the new home.
+                    </p>
+                </div>
+
+                <div class="flex justify-end">
+                    <div class="bg-white rounded-lg shadow-xl p-10 w-full max-w-md">
+
+                        <div class="grid grid-cols-[120px_1fr] gap-y-6">
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Location
+                            </span>
+                            <span class="text-gray-500">
+                                2464 Royal Ln. Mesa, New Jersey
+                            </span>
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Client
+                            </span>
+                            <span class="text-gray-500">
+                                Darlene Robertson
+                            </span>
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Architect
+                            </span>
+                            <span class="text-gray-500">
+                                HIK Architecture
+                            </span>
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Size
+                            </span>
+                            <span class="text-gray-500">
+                                840 sq. feet
+                            </span>
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Value
+                            </span>
+                            <span class="text-gray-500">
+                                $2 million
+                            </span>
+
+                            <span class="text-sm font-semibold uppercase text-gray-700">
+                                Completed
+                            </span>
+                            <span class="text-gray-500">
+                                May 2020
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="w-[100%] bg-[#F7F7F7] py-24">
+            <div class="w-[100%] mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+                    <img src="./imagebilol/image copy 6.png" alt="" class="w-full max-w-md rounded-md">
+
+                    <div>
+                        <h2 class="text-5xl font-bold text-[#1C1C1C] mb-10">
+                            Constructive decisions
+                        </h2>
+
+                        <ul class="space-y-6 text-gray-600">
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>Vitae ultrices ornare eu sed in est quisque duis id.</span>
+                            </li>
+
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>A fermentum in morbi pretium aliquam adipiscing donec tempus.</span>
+                            </li>
+
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>Mauris odio pellentesque commodo, diam.</span>
+                            </li>
+
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>Fermentum vestibulum est fermentum, egestas gravida scelerisque quis.</span>
+                            </li>
+
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>At pharetra libero blandit risus, fringilla sed commodo diam.</span>
+                            </li>
+
+                            <li class="flex items-start gap-4">
+                                <span class="text-orange-500 text-lg">✓</span>
+                                <span>Integer ultricies viverra ut enim viverra ut.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="relative w-full min-h-screen bg-gray-100 flex items-center justify-center lg:justify-end lg:pr-40 p-4 bg-cover bg-center" style="background-image: url('imagebilol/image\ copy\ 7.png');">
+            <div class="absolute inset-0 bg-black/10"></div>
+
+            <div class="relative bg-white p-10 shadow-2xl max-w-md w-full rounded-sm">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 tracking-tight">A quick way to discuss details</h2>
+
+                <form class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 mb-1">Name*</label>
+                        <input type="text" placeholder="Your name"
+                            class="w-full bg-gray-50 border border-gray-200 rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:bg-white transition-colors" />
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 mb-1">Phone*</label>
+                        <input type="tel" placeholder="Your phone number"
+                            class="w-full bg-gray-50 border border-gray-200 rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:bg-white transition-colors" />
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 mb-1">Email</label>
+                        <input type="email" placeholder="Your working email"
+                            class="w-full bg-gray-50 border border-gray-200 rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:bg-white transition-colors" />
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 mb-1">Message*</label>
+                        <textarea rows="3" placeholder="Your message"
+                            class="w-full bg-gray-50 border border-gray-200 rounded px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:bg-white transition-colors resize-none"></textarea>
+                    </div>
+
+                    <div class="flex items-start gap-3 pt-2">
+                        <input type="checkbox" id="agree" checked
+                            class="w-4 h-4 mt-0.5 accent-orange-600 rounded border-gray-300" />
+                        <label for="agree" class="text-xs text-gray-600 leading-normal select-none">
+                            I agree to receive communications from Createx Construction Bureau.
+                        </label>
+                    </div>
+
+                    <div class="pt-4 flex justify-center">
+                        <button type="submit"
+                            class="w-full max-w-xs bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs tracking-wider py-4 px-6 rounded uppercase transition-colors">
+                            Send Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    
+</body>
+
+</html>
